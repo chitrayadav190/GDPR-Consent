@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>GDPR</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1>GDPR Consent</h1>
+        
+
+    </div>
+    <div class="cookie-container" id="blur">
+        <p>
+            We use cookies in this website to give you the best experience on our
+        site and show you relevant ads. To find out more, read our
+        <a href="#">privacy policy</a> and <a href="#">cookie policy</a>
+    
+            We and our partners process data to provide: <a href="https://optad360.mgr.consensu.org/cmp/v2/vendor-list.json">List of trusted partners(Vendors)</a>
+        </p>
+
+        <button class="cookie-btn">
+            Accept 
+
+        </button>
+        <button class="cookie-btn">
+            Reject
+
+        </button>
+
+
+    </div>
+
+
+    <script src="GDPR.js">
+        function toggle(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle()
+        }
+    </script>
+     
+ </body>
+</html>
